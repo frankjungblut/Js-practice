@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    line-height: 1.5;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+label {
+    display: block;
+    margin: 11px 0;
+}
+
+button {
+    display: block;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 0;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.textarea {
+    display: block;
+    justify-content: center;
+    flex: 100%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    resize: vertical;
+}
